@@ -10,6 +10,8 @@ class Superheroes:
     
     def save_civilian(self, work):
         self.strength= self.strength-work
+        if work>self.strength:
+            print("Superhero is not strong enough!" )
         
 
 
